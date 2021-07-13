@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+>
+
+   <TextView
+       android:textColor="@color/black"
+       android:id="@+id/cniclabel"
+       android:paddingLeft="12dp"
+       android:layout_width="200dp"
+       android:layout_height="wrap_content"
+       android:text="label"
+       android:textSize="22dp">
+   </TextView>
+    <TextView
+        android:id="@+id/cnicvalue"
+        android:layout_width="200dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:layout_marginLeft="200dp"
+        android:text="value">
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/titlelabel"
+        android:textColor="@color/black"
+        android:layout_width="200dp"
+        android:layout_marginTop="32dp"
+        android:paddingLeft="12dp"
+        android:layout_height="wrap_content"
+        android:text="label"
+        android:textSize="22dp">
+    </TextView>
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/titlevalue"
+        android:layout_width="200dp"
+        android:layout_marginTop="32dp"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:layout_marginLeft="200dp"
+        android:text="value">
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/Perheadlabel"
+        android:textColor="@color/black"
+        android:layout_width="200dp"
+        android:layout_marginTop="62dp"
+        android:paddingLeft="12dp"
+        android:layout_height="wrap_content"
+        android:text="label"
+        android:textSize="22dp">
+    </TextView>
+    <TextView
+        android:id="@+id/Perheadvalue"
+        android:layout_width="200dp"
+        android:layout_marginTop="62dp"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:layout_marginLeft="200dp"
+        android:textColor="@color/black"
+        android:text="value">
+    </TextView>
+
+    <TextView
+        android:id="@+id/Daylabel"
+        android:layout_width="200dp"
+        android:layout_marginTop="92dp"
+        android:layout_height="wrap_content"
+        android:text="label"
+        android:textColor="@color/black"
+        android:paddingLeft="12dp"
+        android:textSize="22dp">
+    </TextView>
+    <TextView
+        android:id="@+id/Dayvalue"
+        android:layout_width="200dp"
+        android:layout_marginTop="92dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:layout_marginLeft="200dp"
+        android:text="value">
+    </TextView>
+
+ <TextView
+     android:id="@+id/phonelabel"
+     android:layout_width="200dp"
+     android:layout_marginTop="124dp"
+     android:layout_height="wrap_content"
+     android:text="label"
+     android:textColor="@color/black"
+     android:paddingLeft="12dp"
+     android:textSize="22dp">
+ </TextView>
+ <TextView
+     android:id="@+id/phonevalue"
+     android:textColor="@color/black"
+
+     android:layout_width="200dp"
+     android:layout_marginTop="124dp"
+     android:layout_height="wrap_content"
+     android:textSize="22dp"
+     android:layout_marginLeft="200dp"
+     android:text="value">
+ </TextView>
+
+</FrameLayout>

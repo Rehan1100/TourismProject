@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home1"
+            android:icon="@drawable/logo"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/AddOrganizer"
+            android:icon="@drawable/logo"
+            android:title="Add Organizer" />
+        <item
+            android:id="@+id/ViewOrganizer"
+            android:icon="@drawable/logo"
+            android:title="View Organizer" />
+        <item
+            android:id="@+id/Viewnews"
+            android:icon="@drawable/eys"
+            android:title="View News"/>
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="LogOut"/>
+    </group>
+</menu>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TourismFYP</string>
+    <string name="OpenDrawer">Open</string>
+    <string name="CloseDrawer">Close</string>
+    <string name="UsertOpenDrawer">Open</string>
+    <string name="UserCloseDrawer">Close</string>
+
+</resources>

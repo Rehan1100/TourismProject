@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/house"
+            android:title="Home" />
+        <item
+            android:id="@+id/viewtour"
+            android:icon="@drawable/world"
+            android:title="ViewTour" />
+
+        <item
+            android:id="@+id/viewcars"
+            android:icon="@drawable/cars"
+            android:title="ViewCars"/>
+
+        <item
+            android:id="@+id/viewhotels"
+            android:icon="@drawable/hotels"
+            android:title="ViewHotels"/>
+
+        <item
+            android:id="@+id/viewNews"
+            android:icon="@drawable/news"
+            android:title="ViewNews"/>
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logo"
+            android:title="Logout"/>
+    </group>
+</menu>
